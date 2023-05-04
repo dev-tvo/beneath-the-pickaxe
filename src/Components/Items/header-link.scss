@@ -1,0 +1,52 @@
+.link {
+    color: white;
+    position: relative;
+    transition: all .3s ease;
+
+    &:before,
+    &:after {
+        height: 2px;
+        width: 50%;
+        position: absolute;
+        bottom: -3px;
+        transition: all .3s ease;
+        background-color: #e8ab43;
+        opacity: 0;
+        content: '';
+    }
+
+    &:before {
+        right: -2rem;
+    }
+
+    &:after {
+        left: -2rem;
+    }
+
+    &:hover {
+        color: white;
+
+        &:before {
+            right: 2rem;
+            opacity: 1;
+        }
+
+        &:after {
+            left: 2rem;
+            opacity: 1;
+        }
+    }
+
+    &.active {
+
+        &:before {
+            right: 2rem;
+            opacity: 1;
+        }
+
+        &:after {
+            left: 2rem;
+            opacity: 1;
+        }
+    }
+}

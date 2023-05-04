@@ -1,0 +1,217 @@
+.item {
+    position: relative;
+
+    .favorite {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            scale: 1.1;
+        }
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    .item-info {
+        position: fixed;
+        left: 0;
+        top: 12rem;
+        max-width: 29rem;
+        padding: 1.5rem;
+
+        &.item-fixed {
+            left: 50%;
+            transform: translateX(-50%);
+            background: #212020;
+            z-index: 99;
+            padding: 3rem;
+            max-width: 50rem;
+
+            .item-id {
+                top: 1rem;
+            }
+        }
+
+        .divider {
+            background: white;
+            height: 1px;
+            width: 100%;
+            margin: 1rem 0;
+        }
+
+        .item-curse-cost {
+            span {
+                color: #C785E6;
+                margin-left: 20px;
+                position: relative;
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: center;
+                    top: -1px;
+                }
+            }
+        }
+
+        .item-minor-curse-cost span::before {
+            background-image: url("/src/assets/images/gems/MinorCurse.png");
+            left: -20px;
+        }
+
+        .item-major-curse-cost span::before {
+            background-image: url("/src/assets/images/gems/MajorCurse.png");
+            width: 15px;
+            left: -17px;
+        }
+
+        .item-description span {
+            color: #fff;
+            font-style: italic;
+        }
+
+        .curse-type {
+            &.Major span,
+            &.Minor span {
+                color: #e087b9
+            }
+        }
+
+        .item-abilities ul {
+            margin: 0;
+            padding-left: 3rem;
+            list-style: auto;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-wrap: wrap;
+            margin-bottom: 0;
+        }
+
+        .item-id {
+            color: #a38662;
+            position: absolute;
+            top: -2rem;
+            left: 2rem;
+            font-size: 1.2rem;
+        }
+
+        .item-name {
+            color: #f58120;
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .item-type {
+            color: white;
+
+            .curse {
+                color: #A38662;
+            }
+
+            span {
+                color: #a38662;
+            }
+
+            &.Hex span {
+                color: #b495f3;
+            }
+
+            &.Familiar span {
+                color: white;
+            }
+        }
+
+        .item-rarity {
+            &.common span {
+                color: #ffffff;
+            }
+
+            &.legendary span {
+                color: #cd0e20;
+            }
+
+            &.rare span {
+                color: #cd770e;
+            }
+        }
+
+        .item-craftingcost {
+            span {
+                color: #c88aff;
+                position: relative;
+                margin-left: 2rem;
+
+                &:before {
+                    content: "";
+                    background-image: url("/src/assets/images/gems/Thorium1.png");
+                    position: absolute;
+                    width: 2rem;
+                    height: 3rem;
+                    background-size: 85%;
+                    background-repeat: no-repeat;
+                    left: -1.9rem;
+                    top: 0;
+                }
+            }
+        }
+
+        .item-shopcost {
+            span {
+                color: #ffb400;
+                position: relative;
+                margin-left: 2rem;
+
+                &:before {
+                    content: "";
+                    background-image: url("/src/assets/images/gems/Gold10.png");
+                    position: absolute;
+                    width: 3rem;
+                    height: 3rem;
+                    background-repeat: no-repeat;
+                    left: -1.9rem;
+                    top: 0.3rem;
+                }
+            }
+        }
+
+        .item-minorCurseCost {
+            span {
+                color: #c88aff;
+                position: relative;
+                margin-left: 2rem;
+
+                &:before {
+                    content: "";
+                    background-image: url("/src/assets/images/gems/MajorCurse.png");
+                    position: absolute;
+                    width: 2rem;
+                    height: 3rem;
+                    background-size: 85%;
+                    background-repeat: no-repeat;
+                    left: -1.9rem;
+                    top: 0;
+                }
+            }
+        }
+
+        .item-effect {
+            span {
+                color: #A38662;
+            }
+        }
+    }
+}
