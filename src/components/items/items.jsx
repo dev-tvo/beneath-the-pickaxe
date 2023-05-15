@@ -1,8 +1,8 @@
 import items from '../../data/items.js'
 import './items.scss'
-import Item from '../Item/Item.jsx';
+import Item from '../item/item.jsx';
 import React, {useState} from 'react';
-import Header from "../Header/header.jsx";
+import Header from "../header/header.jsx";
 
 export default function Items() {
     const [showOverlay, setShowOverlay] = useState(false);
