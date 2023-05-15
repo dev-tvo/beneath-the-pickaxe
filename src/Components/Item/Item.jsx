@@ -1,7 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import './item.scss'
-import heart from '../../assets/images/heart.svg'
-import heartFilled from '../../assets/images/heart-filled.svg'
 
 const Item = (props) => {
     const [isHovering, setIsHovering] = useState(null);
@@ -43,7 +41,7 @@ const Item = (props) => {
     }, [props.showOverlay])
 
     return (
-        <div className="item">
+        <li className={`item`} data-name={props.itemData.name}>
             <img
                 src={props.itemData.imageUrl}
                 alt=""
@@ -103,7 +101,7 @@ const Item = (props) => {
             }
 
             {clickedItem &&
-                <div className="item-info item-fixed">
+                <div className="item-info item-popup">
                     <div className="item-header">
                         <div className="item-id font-bold">Index no. {id}</div>
                         <div className="item-name">{name}</div>
@@ -151,7 +149,7 @@ const Item = (props) => {
                     }
                 </div>
             }
-        </div>)
+        </li>)
 }
 
 export default Item
