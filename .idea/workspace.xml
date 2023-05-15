@@ -7,14 +7,13 @@
     <list default="true" id="49cfecaa-2e76-4eee-9772-5a5e8c086a9b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Item/Item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Item/item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Item/item.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Items/items.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Items/items.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Items/items.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Items/items.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/css_sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/items.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/items.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item/Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Item/item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item/item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Items/header-link.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Items/items.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/items.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Items/items.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/items.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,7 @@
       <workItem from="1683461865755" duration="1952000" />
       <workItem from="1684134385435" duration="4121000" />
       <workItem from="1684141599291" duration="195000" />
-      <workItem from="1684154682735" duration="3944000" />
+      <workItem from="1684154682735" duration="5587000" />
     </task>
     <servers />
   </component>

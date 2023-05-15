@@ -1,6 +1,5 @@
 import items from '../../data/items.js'
 import './items.scss'
-import './header-link.scss'
 import Item from '../Item/Item.jsx';
 import React, {useState} from 'react';
 import Header from "../Header/header.jsx";
