@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+    color-scheme: light;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #e4e5f1;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    font-size: 1.6rem;
+    transition: all 0.2s ease-in-out;
+
+    .header {
+        background: #e4e5f1;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    &.light {
+        .item-popup {
+            color: #e4e5f1;
+        }
+
+        .item-info {
+            .item-type {
+                color: #000;
+            }
+
+            &.item-popup .item-type {
+                color: #fff;
+            }
+        }
+    }
+
+    &.dark {
+        background-color: #242424;
+        color-scheme: dark;
+        color: rgba(255, 255, 255, 0.87);
+
+        .header {
+            background: #242424;
+            box-shadow: 1px 3px 4px 0 rgba(0, 0, 0, 0.3);
+        }
+    }
+}
+
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+
+    &:hover {
+        color: #535bf2;
+
+    }
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.font-bold {
+    font-weight: 600;
+}

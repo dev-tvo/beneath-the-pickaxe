@@ -1,15 +1,19 @@
 .item {
     position: relative;
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    transition: all .3s ease;
+    width: 7.5rem;
+    height: 7.5rem;
 
-    .favorite {
-        position: absolute;
-        top: 0;
-        left: 0;
-        transition: all 0.2s ease-in-out;
+    &.hidden {
+        display: none;
+    }
 
-        &:hover {
-            scale: 1.1;
-        }
+    img {
+        width: 100%;
+        height: 100%;
     }
 
     &:hover {
@@ -23,13 +27,14 @@
         max-width: 29rem;
         padding: 1.5rem;
 
-        &.item-fixed {
+        &.item-popup {
             left: 50%;
             transform: translateX(-50%);
             background: #212020;
             z-index: 99;
             padding: 3rem;
             max-width: 50rem;
+            border-radius: 1rem;
 
             .item-id {
                 top: 1rem;
@@ -97,6 +102,7 @@
             align-items: center;
             text-align: center;
             flex-wrap: wrap;
+            flex-direction: column;
             margin-bottom: 0;
         }
 

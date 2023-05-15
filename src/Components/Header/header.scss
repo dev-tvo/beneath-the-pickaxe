@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+    height: 8rem;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    box-shadow: 1px 3px 4px 0 rgb(0 0 0 / 40%);
+    transition: all 0.2s ease-in-out;
+
+    .links {
+        display: flex;
+        gap: 5rem;
+    }
+
+    .theme-switch {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .search {
+        input {
+            border-radius: 0.3rem;
+            border: 0.1rem solid transparent;
+            transition: all 0.2s ease-in-out;
+            padding: 2rem 1rem;
+            width: 25rem;
+
+            &:focus {
+                outline: none;
+                border: 0.1rem solid #e8ab43;
+            }
+        }
+    }
+}
