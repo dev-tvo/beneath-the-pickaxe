@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './header.scss'
+import Pickaxe from "../pickaxe-icon/pickaxe-icon";
 
 const Header = props => {
     const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
@@ -33,8 +34,10 @@ const Header = props => {
     return (
         <div className="header">
             <div className="logo">
-                <img src="./images/gem.png" alt=""/>
-                <h2>Undermine guide</h2>
+                <a href="/">
+                    <Pickaxe />
+                </a>
+                <h2>Beneath the pickaxe</h2>
             </div>
             <div className="header-right">
                 <div className="search">
@@ -44,7 +47,8 @@ const Header = props => {
                         placeholder={'Type here to search'}/>
                 </div>
                 <div className="theme-switch">
-                    <img src={`./images/${theme === 'light' ? 'dark-pilfer' : 'pilfer'}.png`} alt="" onClick={handleThemeSwitch}/>
+                    <img src={`./images/${theme === 'light' ? 'dark-pilfer' : 'pilfer'}.png`} alt=""
+                         onClick={handleThemeSwitch}/>
                 </div>
             </div>
         </div>
