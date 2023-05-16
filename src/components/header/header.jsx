@@ -32,6 +32,10 @@ const Header = props => {
 
     return (
         <div className="header">
+            <div className="logo">
+                <img src="./images/othermine-logo.png" alt=""/>
+                <h2>Othermine</h2>
+            </div>
             <div className="search">
                 <input
                     type="input"

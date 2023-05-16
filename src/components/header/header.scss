@@ -11,6 +11,17 @@
     box-shadow: 1px 3px 4px 0 rgb(0 0 0 / 40%);
     transition: all 0.2s ease-in-out;
 
+    .logo {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 4rem;
+            height: 4.4rem;
+            margin-right: 2rem;
+        }
+    }
+
     .links {
         display: flex;
         gap: 5rem;
