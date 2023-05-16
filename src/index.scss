@@ -32,17 +32,15 @@ body {
     }
 
     &.light {
-        .item-popup {
-            color: #e4e5f1;
-        }
 
         .item-info {
             .item-type {
                 color: #000;
             }
 
-            &.item-popup .item-type {
-                color: #fff;
+            &.item-popup  {
+                background: #e4e5f1;
+
             }
         }
     }

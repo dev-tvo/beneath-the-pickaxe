@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49cfecaa-2e76-4eee-9772-5a5e8c086a9b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item/item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/nether.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/othermine-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/items.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/items.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +48,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;othermine-v3&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/thomvanoort/sites/othermine-react&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -97,6 +103,9 @@
       <workItem from="1684134385435" duration="4121000" />
       <workItem from="1684141599291" duration="195000" />
       <workItem from="1684154682735" duration="6500000" />
+      <workItem from="1684227510377" duration="439000" />
+      <workItem from="1684227952418" duration="34000" />
+      <workItem from="1684227988469" duration="321000" />
     </task>
     <servers />
   </component>

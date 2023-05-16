@@ -33,17 +33,19 @@ const Header = props => {
     return (
         <div className="header">
             <div className="logo">
-                <img src="./images/othermine-logo.png" alt=""/>
-                <h2>Othermine</h2>
+                <img src="./images/gem.png" alt=""/>
+                <h2>Undermine guide</h2>
             </div>
-            <div className="search">
-                <input
-                    type="input"
-                    onKeyUp={handleInput}
-                    placeholder={'Type here to search'}/>
-            </div>
-            <div className="theme-switch">
-                <img src={`./images/${theme === 'light' ? 'moon' : 'sun'}.svg`} alt="" onClick={handleThemeSwitch}/>
+            <div className="header-right">
+                <div className="search">
+                    <input
+                        type="input"
+                        onKeyUp={handleInput}
+                        placeholder={'Type here to search'}/>
+                </div>
+                <div className="theme-switch">
+                    <img src={`./images/${theme === 'light' ? 'dark-pilfer' : 'pilfer'}.png`} alt="" onClick={handleThemeSwitch}/>
+                </div>
             </div>
         </div>
     )

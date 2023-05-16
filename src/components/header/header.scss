@@ -16,9 +16,10 @@
         align-items: center;
 
         img {
-            width: 4rem;
-            height: 4.4rem;
+            width: 3rem;
+            height: 3.8rem;
             margin-right: 2rem;
+            display: block;
         }
     }
 
@@ -27,23 +28,34 @@
         gap: 5rem;
     }
 
-    .theme-switch {
-        &:hover {
-            cursor: pointer;
+    .header-right {
+        display: flex;
+        align-items: center;
+
+        .theme-switch {
+            &:hover {
+                cursor: pointer;
+            }
+
+            img {
+                width: 8rem;
+            }
         }
-    }
 
-    .search {
-        input {
-            border-radius: 0.3rem;
-            border: 0.1rem solid transparent;
-            transition: all 0.2s ease-in-out;
-            padding: 2rem 1rem;
-            width: 25rem;
+        .search {
+            margin-right: 2rem;
 
-            &:focus {
-                outline: none;
-                border: 0.1rem solid #e8ab43;
+            input {
+                border-radius: 0.3rem;
+                border: 0.1rem solid transparent;
+                transition: all 0.2s ease-in-out;
+                padding: 2rem 1rem;
+                width: 25rem;
+
+                &:focus {
+                    outline: none;
+                    border: 0.1rem solid #e8ab43;
+                }
             }
         }
     }
